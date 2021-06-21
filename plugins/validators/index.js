@@ -1,6 +1,7 @@
 const _ = require('lodash/fp')
 const bs58check = require('bs58check')
-const bech32 = require('bech32')
+// const bech32 = require('bech32')
+const bech32 = require('bech32-buffer')
 
 module.exports = { base58Validator, bech32Validator, isBech32Address, zecBech32Validator }
 
